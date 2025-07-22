@@ -1,0 +1,20 @@
+# Weather Forecast Data App 🌤️
+
+Aplicación en Python que muestra el pronóstico del clima para una ciudad, usando datos de la API de OpenWeatherMap. Está desarrollada con Streamlit y disponible para probar online.
+
+🔗 **[Probar la app online](https://weather-forecast-data.streamlit.app/)**
+
+---
+
+## 📌 ¿Qué hace?
+
+- Consulta el pronóstico del tiempo a 5 días para cualquier ciudad.
+- Muestra información como:
+  - Temperatura
+  - Humedad
+  - Condiciones del cielo (lluvia, nubes, etc.)
+- Utiliza la API de OpenWeatherMap.
+- Carga la clave API desde un archivo `.env`.
+- Interfaz visual hecha con Streamlit.
+
+---
