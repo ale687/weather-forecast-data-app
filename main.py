@@ -9,7 +9,7 @@ days = st.slider("Forescast Days", min_value=1, max_value=5,
                  help="Select the number of forecasted days")
 option = st.selectbox("Select data to view",
                       ("Temperature", "Sky"))
-st.subheader(f"{option} for yhe next {days} days in {place}")
+st.subheader(f"{option} for the next {days} days in {place}")
 
 if place:
     # Get the temperature/ sky data
