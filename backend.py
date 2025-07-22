@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-api_key = st.secrets("API_KEY")
+api_key = st.secrets["API_KEY"]
 
 
 def get_data(place, forecast_days=None):
